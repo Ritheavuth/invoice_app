@@ -1,0 +1,34 @@
+name: khmer_pos
+description: កម្មវិធីបង្កើតដើម្បីជួយក្រុមហ៊ុនអាហារដ្ឋានអាហារប្រណីមាសចំណែក ជាមួយនឹងការគ្រប់គ្រងការលក់ ប៉ុន្តែជាកម្មវិធីផ្លាស់ប្ដូរចំណេះដឹងរបស់បុគ្គលិកដែលធ្វើការនៅក្នុងផ្ទះបាយ។ កម្មវិធីនេះអាចជួយគ្រប់គ្រងបញ្ជីគ្រប់គ្រងតារាងដើម្បីជៀសវាងជាមួយការគ្រប់គ្រងការកម្ម៉ង់ បញ្ជីបន្ទប់ បញ្ជីបានចុះបញ្ជីប័ណ្ណ បង្កើតវិក្ក័យប័ត្រលក់ ហើយរក្សាទុកទិន្ន័យដែលត្រូវបានរក្សាទុកលើសពីប្រព័ន្ធទូរស័ព្ទរបស់អ្នក។ កម្មវិធីនេះអាចបន្ថែមការបង្កើតទំព័របង្ហាញអំពីតារាងទូរស័ព្ទតាមរយៈទីតាំងដែលអ្នកបានជ្រើសរើស។
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.5
+  path_provider: ^2.0.13
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.12.0"
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/logo.jpg"
+  min_sdk_android: 21
+
+
+
+flutter:
+  uses-material-design: true
